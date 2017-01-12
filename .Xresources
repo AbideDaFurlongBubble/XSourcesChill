@@ -1,0 +1,21 @@
+!URXVT Prevent Buffer Autoscrolling
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+
+!URXVT Disable secondary buffer scrolling (primary buffer scrolling only)
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+!URXVT Transparency
+URxvt*transparent: true
+URxvt*shading: 20
+
+!URXVT General Settings
+URxvt.scrollBar: false
+URxvt.borderless: true
+
+!EMACS Config
+emacs*menuBar: false
+emacs*toolBar: false
+emacs*verticalScrollBars: off
